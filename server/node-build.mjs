@@ -1,5 +1,5 @@
-import serverlessHttp from 'serverless-http';
-import { createServer } from './index.mjs';
+import serverlessHttp from "serverless-http";
+import { createServer } from "./index.mjs";
 
 const app = createServer();
 const PORT = process.env.PORT || 3000;
